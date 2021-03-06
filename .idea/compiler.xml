@@ -17,6 +17,7 @@
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-cusumerconsul-order80" />
         <module name="cloud-api-commons" />
+        <module name="cloud-cusumer-openfeign-order80" />
       </profile>
     </annotationProcessing>
   </component>
