@@ -41,16 +41,16 @@ public class OrderController {
     @HystrixCommand
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
     public String paymentInfo_TimeOut(@PathVariable("id") Integer id) {
-        int age = 10 / 0;
+//        int age = 10 / 0;
         String result = paymentHystrixService.paymentInfo_TimeOut(id);
         log.info("*******result:" + result);
         return result;
     }
 
 
-    public String payment_Global_FallbackMethod() {
+  /*  public String payment_Global_FallbackMethod() {
         return "这是出错的全局兜底策略";
-    }
+    }*/
 
     //兜底方法
     public String paymentTimeOutFallbackMethod(@PathVariable("id") Integer id) {
