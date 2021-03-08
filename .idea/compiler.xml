@@ -10,6 +10,7 @@
         <module name="cloudeurekaserver7002" />
         <module name="cloudeurekaserver7001" />
         <module name="cloud-provider-hystrix-payment8001" />
+        <module name="cloud-config-center-3344" />
         <module name="cloud-cusumer-openfeign-order80" />
         <module name="cloud-api-commons" />
         <module name="cloud-provider-payment8004" />
