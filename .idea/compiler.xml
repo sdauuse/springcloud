@@ -19,6 +19,7 @@
         <module name="cloud-cusumerzk-order80" />
         <module name="cloud-cusumer-order80" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-gateway-gateway9527" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-cusumerconsul-order80" />
       </profile>
